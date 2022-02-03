@@ -1,0 +1,1401 @@
+{
+    "manifest_version": "1.0.16",
+    "title": "Ancorathemes Blog4life - Personal Creative Blog & Magazine Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Product",
+            "screenshot": "screenshots\/archive-product.jpg",
+            "source": "templates\/archive-product.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/?elementor_library=archive-product",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Blog",
+            "screenshot": "screenshots\/archive-blog.jpg",
+            "source": "templates\/archive-blog.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/?elementor_library=archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 1 (pro)",
+            "screenshot": "screenshots\/home-1-pro-.jpg",
+            "source": "templates\/home-1-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/home-1-pro\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 2 (pro)",
+            "screenshot": "screenshots\/home-2-pro-.jpg",
+            "source": "templates\/home-2-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/home-2\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 3 (pro)",
+            "screenshot": "screenshots\/home-3-pro-.jpg",
+            "source": "templates\/home-3-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/home-3\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer Style 3",
+            "screenshot": "screenshots\/footer-style-3.jpg",
+            "source": "templates\/footer-style-3.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/footer-style-3\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog (pro)",
+            "screenshot": "screenshots\/blog-pro-.jpg",
+            "source": "templates\/blog-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/blog\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/?elementor_library=single-post",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Product",
+            "screenshot": "screenshots\/single-product.jpg",
+            "source": "templates\/single-product.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Main Header",
+            "screenshot": "screenshots\/main-header.jpg",
+            "source": "templates\/main-header.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/?elementor_library=main-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header Style 3",
+            "screenshot": "screenshots\/header-style-3.jpg",
+            "source": "templates\/header-style-3.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/header-style-3\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header Style 2",
+            "screenshot": "screenshots\/header-style-2.jpg",
+            "source": "templates\/header-style-2.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/header-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Shop (Pro)",
+            "screenshot": "screenshots\/shop-pro-.jpg",
+            "source": "templates\/shop-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/shop-pro\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Articles (pro)",
+            "screenshot": "screenshots\/articles-pro-.jpg",
+            "source": "templates\/articles-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/articles\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team 2 (pro)",
+            "screenshot": "screenshots\/team-2-pro-.jpg",
+            "source": "templates\/team-2-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/team-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services (pro)",
+            "screenshot": "screenshots\/services-pro-.jpg",
+            "source": "templates\/services-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team (pro)",
+            "screenshot": "screenshots\/team-pro-.jpg",
+            "source": "templates\/team-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/team-pro\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer Style 2",
+            "screenshot": "screenshots\/footer-style-2.jpg",
+            "source": "templates\/footer-style-2.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/footer-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Locations",
+            "screenshot": "screenshots\/locations.jpg",
+            "source": "templates\/locations.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/locations\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Author Page (pro)",
+            "screenshot": "screenshots\/author-page-pro-.jpg",
+            "source": "templates\/author-page-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/author-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us (pro)",
+            "screenshot": "screenshots\/contact-us-pro-.jpg",
+            "source": "templates\/contact-us-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Company (pro)",
+            "screenshot": "screenshots\/our-company-pro-.jpg",
+            "source": "templates\/our-company-pro-.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/template-kit\/our-company\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Main Footer",
+            "screenshot": "screenshots\/main-footer.jpg",
+            "source": "templates\/main-footer.json",
+            "preview_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/?elementor_library=main-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Extensions For Elementor",
+            "version": "1.0.7",
+            "file": "extensions-for-elementor\/extensions-for-elementor.php",
+            "author": "mayanksdudakiya"
+        },
+        {
+            "name": "iFeed For Elementor",
+            "version": "1.0.6",
+            "file": "ifeed-for-elementor\/ifeed-for-elementor.php",
+            "author": "wpconcern"
+        },
+        {
+            "name": "Template Kit Import",
+            "version": "1.0.9",
+            "file": "template-kit-import\/template-kit-import.php",
+            "author": "Envato"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "4.5.2",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.0.11",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.6",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.3",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "woman-going-through-some-paperwork-at-home.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/woman-going-through-some-paperwork-at-home-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/archive-product.json",
+                    "name": "Archive Product"
+                },
+                {
+                    "source": "templates\/shop-pro-.json",
+                    "name": "Shop (Pro)"
+                },
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 201864,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/woman-going-through-some-paperwork-at-home-P26HP5V"
+        },
+        {
+            "filename": "laurice-manaligod-i7uV0Q8tJ48-unsplash-1-scaled-e1592241323351.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/laurice-manaligod-i7uV0Q8tJ48-unsplash-1-scaled-e1592241323351-600x898.jpg",
+            "templates": [
+                {
+                    "source": "templates\/archive-product.json",
+                    "name": "Archive Product"
+                },
+                {
+                    "source": "templates\/shop-pro-.json",
+                    "name": "Shop (Pro)"
+                },
+                {
+                    "source": "templates\/services-pro-.json",
+                    "name": "Services (pro)"
+                }
+            ],
+            "filesize": 480477,
+            "dimensions": [
+                1710,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/i7uV0Q8tJ48"
+        },
+        {
+            "filename": "jonathan-borba-i2gom1zDv5Y-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/jonathan-borba-i2gom1zDv5Y-unsplash-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                },
+                {
+                    "source": "templates\/home-2-pro-.json",
+                    "name": "Home 2 (pro)"
+                },
+                {
+                    "source": "templates\/blog-pro-.json",
+                    "name": "Blog (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/locations.json",
+                    "name": "Locations"
+                }
+            ],
+            "filesize": 213939,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/i2gom1zDv5Y"
+        },
+        {
+            "filename": "the-tonik-4x1AyuOTIgo-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/the-tonik-4x1AyuOTIgo-unsplash-600x683.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-pro-.json",
+                    "name": "Home 1 (pro)"
+                },
+                {
+                    "source": "templates\/home-2-pro-.json",
+                    "name": "Home 2 (pro)"
+                },
+                {
+                    "source": "templates\/home-3-pro-.json",
+                    "name": "Home 3 (pro)"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                },
+                {
+                    "source": "templates\/services-pro-.json",
+                    "name": "Services (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/our-company-pro-.json",
+                    "name": "Our Company (pro)"
+                }
+            ],
+            "filesize": 258793,
+            "dimensions": [
+                1920,
+                2187
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/4x1AyuOTIgo"
+        },
+        {
+            "filename": "laurice-manaligod-i7uV0Q8tJ48-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/laurice-manaligod-i7uV0Q8tJ48-unsplash-600x898.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-pro-.json",
+                    "name": "Home 1 (pro)"
+                },
+                {
+                    "source": "templates\/articles-pro-.json",
+                    "name": "Articles (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 476314,
+            "dimensions": [
+                1710,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/i7uV0Q8tJ48"
+        },
+        {
+            "filename": "pretty-young-woman-driving-on-road-trip-on-beautif-RFXTVQ3.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/pretty-young-woman-driving-on-road-trip-on-beautif-RFXTVQ3-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-pro-.json",
+                    "name": "Home 1 (pro)"
+                },
+                {
+                    "source": "templates\/articles-pro-.json",
+                    "name": "Articles (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 189564,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RFXTVQ3"
+        },
+        {
+            "filename": "portrait-of-beautiful-girl-in-trench-coat-pulling-XWE6NRN.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/portrait-of-beautiful-girl-in-trench-coat-pulling-XWE6NRN-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-pro-.json",
+                    "name": "Home 1 (pro)"
+                },
+                {
+                    "source": "templates\/articles-pro-.json",
+                    "name": "Articles (pro)"
+                }
+            ],
+            "filesize": 162882,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XWE6NRN"
+        },
+        {
+            "filename": "alex-azabache-Sl-5extHin0-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/alex-azabache-Sl-5extHin0-unsplash-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1-pro-.json",
+                    "name": "Home 1 (pro)"
+                },
+                {
+                    "source": "templates\/articles-pro-.json",
+                    "name": "Articles (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/locations.json",
+                    "name": "Locations"
+                },
+                {
+                    "source": "templates\/our-company-pro-.json",
+                    "name": "Our Company (pro)"
+                }
+            ],
+            "filesize": 536785,
+            "dimensions": [
+                1707,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/Sl-5extHin0"
+        },
+        {
+            "filename": "brandon-leclaire-S0ehguTNWzg-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/brandon-leclaire-S0ehguTNWzg-unsplash-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3-pro-.json",
+                    "name": "Home 3 (pro)"
+                },
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                },
+                {
+                    "source": "templates\/services-pro-.json",
+                    "name": "Services (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/locations.json",
+                    "name": "Locations"
+                },
+                {
+                    "source": "templates\/author-page-pro-.json",
+                    "name": "Author Page (pro)"
+                },
+                {
+                    "source": "templates\/our-company-pro-.json",
+                    "name": "Our Company (pro)"
+                }
+            ],
+            "filesize": 223748,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/S0ehguTNWzg"
+        },
+        {
+            "filename": "kyle-cut-media-Q3KuLicdY1E-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/kyle-cut-media-Q3KuLicdY1E-unsplash-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3-pro-.json",
+                    "name": "Home 3 (pro)"
+                },
+                {
+                    "source": "templates\/articles-pro-.json",
+                    "name": "Articles (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/our-company-pro-.json",
+                    "name": "Our Company (pro)"
+                }
+            ],
+            "filesize": 178568,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/Q3KuLicdY1E"
+        },
+        {
+            "filename": "juliet-furst-4Y2wkBirOfQ-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/juliet-furst-4Y2wkBirOfQ-unsplash-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-3-pro-.json",
+                    "name": "Home 3 (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 355994,
+            "dimensions": [
+                1707,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/4Y2wkBirOfQ"
+        },
+        {
+            "filename": "ann-KzamVRUeL4I-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/ann-KzamVRUeL4I-unsplash-600x798.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 209340,
+            "dimensions": [
+                1920,
+                2554
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/KzamVRUeL4I"
+        },
+        {
+            "filename": "young-attractive-woman-with-dark-curly-hair.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/young-attractive-woman-with-dark-curly-hair-600x547.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 162257,
+            "dimensions": [
+                822,
+                749
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/young-attractive-woman-with-dark-curly-hair-sittin-Y25BGST"
+        },
+        {
+            "filename": "apothecary-87-0541KesIb00-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/apothecary-87-0541KesIb00-unsplash-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/articles-pro-.json",
+                    "name": "Articles (pro)"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 140532,
+            "dimensions": [
+                1920,
+                1281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/0541KesIb00"
+        },
+        {
+            "filename": "ellieelien-efVwtODKNhM-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/ellieelien-efVwtODKNhM-unsplash-600x750.jpg",
+            "templates": [
+                {
+                    "source": "templates\/articles-pro-.json",
+                    "name": "Articles (pro)"
+                }
+            ],
+            "filesize": 198911,
+            "dimensions": [
+                1920,
+                2401
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/efVwtODKNhM"
+        },
+        {
+            "filename": "smiling-young-woman-standing-in-creative-office.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/smiling-young-woman-standing-in-creative-office-600x611.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                },
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 209926,
+            "dimensions": [
+                942,
+                959
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/smiling-young-woman-standing-in-creative-office-PHKL7DX"
+        },
+        {
+            "filename": "middle-aged-white-male-creative-sitting-in.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/middle-aged-white-male-creative-sitting-in-600x413.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                }
+            ],
+            "filesize": 162885,
+            "dimensions": [
+                1401,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/middle-aged-white-male-creative-sitting-in-an-offi-8FCSRHJ"
+        },
+        {
+            "filename": "elegant-businesswoman-working-in-a-office.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/elegant-businesswoman-working-in-a-office-600x591.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                },
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 214114,
+            "dimensions": [
+                1215,
+                1196
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/elegant-businesswoman-working-in-a-office-QZUSBVT"
+        },
+        {
+            "filename": "business-people-at-conference-table.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/business-people-at-conference-table-600x479.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                },
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                },
+                {
+                    "source": "templates\/author-page-pro-.json",
+                    "name": "Author Page (pro)"
+                }
+            ],
+            "filesize": 171139,
+            "dimensions": [
+                975,
+                779
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-people-at-conference-tablet-having-meetin-WSDBFYL"
+        },
+        {
+            "filename": "confident-young-entrepreneur-standing-in-office.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/confident-young-entrepreneur-standing-in-office-600x432.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                },
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 117343,
+            "dimensions": [
+                1293,
+                932
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "confident-young-entrepreneur-standing-in-office-PFSC7KJ"
+        },
+        {
+            "filename": "happy-young-casual-businessman-talking-on-mobile.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/happy-young-casual-businessman-talking-on-mobile-600x592.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-2-pro-.json",
+                    "name": "Team 2 (pro)"
+                },
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 165866,
+            "dimensions": [
+                792,
+                782
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "happy-young-casual-businessman-talking-on-mobile-Y2K9WAG"
+        },
+        {
+            "filename": "pencil@2x.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/pencil@2x.png",
+            "templates": [
+                {
+                    "source": "templates\/services-pro-.json",
+                    "name": "Services (pro)"
+                }
+            ],
+            "filesize": 7059,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/design-28"
+        },
+        {
+            "filename": "layers.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/layers.png",
+            "templates": [
+                {
+                    "source": "templates\/services-pro-.json",
+                    "name": "Services (pro)"
+                }
+            ],
+            "filesize": 7936,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/design-28"
+        },
+        {
+            "filename": "pen.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/pen.png",
+            "templates": [
+                {
+                    "source": "templates\/services-pro-.json",
+                    "name": "Services (pro)"
+                }
+            ],
+            "filesize": 7417,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/design-28"
+        },
+        {
+            "filename": "business-people-conference.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/business-people-conference-600x627.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 198733,
+            "dimensions": [
+                768,
+                803
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-people-conference-and-meeting-in-modern-o-F8HTVBQ"
+        },
+        {
+            "filename": "laughing-young-businesswoman-with-colleagues.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/laughing-young-businesswoman-with-colleagues-600x546.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                },
+                {
+                    "source": "templates\/author-page-pro-.json",
+                    "name": "Author Page (pro)"
+                }
+            ],
+            "filesize": 180847,
+            "dimensions": [
+                1008,
+                917
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/laughing-young-businesswoman-with-colleagues-at-wo-BRHFWTB"
+        },
+        {
+            "filename": "quotes-2.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/quotes-2.png",
+            "templates": [
+                {
+                    "source": "templates\/team-pro-.json",
+                    "name": "Team (pro)"
+                }
+            ],
+            "filesize": 1217,
+            "dimensions": [
+                25,
+                21
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/quote_565703?term=quotes&page=1&position=2"
+        },
+        {
+            "filename": "marianne-krohn-RNqZbnBnMQk-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/marianne-krohn-RNqZbnBnMQk-unsplash-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 145819,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/RNqZbnBnMQk"
+        },
+        {
+            "filename": "taisiia-shestopal-AclxFgBjeD0-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/taisiia-shestopal-AclxFgBjeD0-unsplash-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 388832,
+            "dimensions": [
+                1707,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/AclxFgBjeD0"
+        },
+        {
+            "filename": "allison-christine-vPrqHSLdF28-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/allison-christine-vPrqHSLdF28-unsplash-600x899.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 600016,
+            "dimensions": [
+                1709,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/vPrqHSLdF28"
+        },
+        {
+            "filename": "marya_volk-ZcU6eBGSg1U-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/marya_volk-ZcU6eBGSg1U-unsplash-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 320992,
+            "dimensions": [
+                1707,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/ZcU6eBGSg1U"
+        },
+        {
+            "filename": "juliet-furst-MISKObMT6TA-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/juliet-furst-MISKObMT6TA-unsplash-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/locations.json",
+                    "name": "Locations"
+                }
+            ],
+            "filesize": 143812,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/MISKObMT6TA"
+        },
+        {
+            "filename": "lucija-ros-Un3pQ5zb000-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/lucija-ros-Un3pQ5zb000-unsplash-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/locations.json",
+                    "name": "Locations"
+                }
+            ],
+            "filesize": 263826,
+            "dimensions": [
+                1920,
+                1920
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/Un3pQ5zb000"
+        },
+        {
+            "filename": "smiling-young-businesswoman-sitting-with.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/smiling-young-businesswoman-sitting-with-600x599.jpg",
+            "templates": [
+                {
+                    "source": "templates\/author-page-pro-.json",
+                    "name": "Author Page (pro)"
+                }
+            ],
+            "filesize": 188636,
+            "dimensions": [
+                924,
+                923
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/es-419\/smiling-young-businesswoman-sitting-with-colleague-3ZBEFZ8"
+        },
+        {
+            "filename": "smiling-young-businessman-standing-with-his.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/smiling-young-businessman-standing-with-his-600x615.jpg",
+            "templates": [
+                {
+                    "source": "templates\/author-page-pro-.json",
+                    "name": "Author Page (pro)"
+                }
+            ],
+            "filesize": 216519,
+            "dimensions": [
+                702,
+                719
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/smiling-young-businessman-standing-with-his-laptop-TYU2AEQ"
+        },
+        {
+            "filename": "annie-spratt-6Xe48P3q5BY-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/annie-spratt-6Xe48P3q5BY-unsplash-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us-pro-.json",
+                    "name": "Contact Us (pro)"
+                }
+            ],
+            "filesize": 529824,
+            "dimensions": [
+                1707,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/6Xe48P3q5BY"
+        },
+        {
+            "filename": "mail.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/mail.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us-pro-.json",
+                    "name": "Contact Us (pro)"
+                }
+            ],
+            "filesize": 7445,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/web-essentials"
+        },
+        {
+            "filename": "call.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/call.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us-pro-.json",
+                    "name": "Contact Us (pro)"
+                }
+            ],
+            "filesize": 11673,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/web-essentials"
+        },
+        {
+            "filename": "pin.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/pin.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us-pro-.json",
+                    "name": "Contact Us (pro)"
+                }
+            ],
+            "filesize": 8540,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/web-essentials"
+        },
+        {
+            "filename": "clock.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/clock.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us-pro-.json",
+                    "name": "Contact Us (pro)"
+                }
+            ],
+            "filesize": 9468,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/web-essentials"
+        },
+        {
+            "filename": "brooke-cagle-kElEigko7PU-unsplash.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/brooke-cagle-kElEigko7PU-unsplash-600x403.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-company-pro-.json",
+                    "name": "Our Company (pro)"
+                }
+            ],
+            "filesize": 172626,
+            "dimensions": [
+                1920,
+                1289
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/kElEigko7PU"
+        },
+        {
+            "filename": "jean-philippe-delberghe-s2l2e5b86Q-unsplash-scaled.jpg",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/jean-philippe-delberghe-s2l2e5b86Q-unsplash-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-company-pro-.json",
+                    "name": "Our Company (pro)"
+                }
+            ],
+            "filesize": 306546,
+            "dimensions": [
+                1707,
+                2560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/-s2l2e5b86Q"
+        },
+        {
+            "filename": "logowhite.png",
+            "thumbnail_url": "http:\/\/template-kit.ancorathemes.com\/blog-for-life\/wp-content\/uploads\/sites\/13\/2020\/06\/logowhite.png",
+            "templates": [
+                {
+                    "source": "templates\/main-footer.json",
+                    "name": "Main Footer"
+                }
+            ],
+            "filesize": 4715,
+            "dimensions": [
+                314,
+                82
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}
