@@ -1,0 +1,17 @@
+[15/Feb/2022:05:53:00] (I): WordPress Instance Info:
+[15/Feb/2022:05:53:00] (I): Home URL : https://team.ctnis.com
+[15/Feb/2022:05:53:00] (I): Site URL : https://team.ctnis.com
+[15/Feb/2022:05:53:00] (I): WordPress Version : 5.9
+[15/Feb/2022:05:53:00] (I): Onboarding Version : 1.1.20
+[15/Feb/2022:05:53:00] (I): Multisite : No
+[15/Feb/2022:05:53:00] (I): Server Info : nginx/1.21.4
+[15/Feb/2022:05:53:00] (I): PHP Version : 7.4.27
+[15/Feb/2022:05:53:00] (I): HTTPS : Yes
+[15/Feb/2022:05:53:00] (I): PHP Max Execution Time : 300
+[15/Feb/2022:05:53:00] (I): PHP Max Input Vars : 1000
+[15/Feb/2022:05:53:00] (I): Max Upload Size : 1073741824
+[15/Feb/2022:05:53:00] (I): Plugins:
+[15/Feb/2022:05:53:00] (I): [PLUGIN] Neve Pro Addon : v2.1.5 (ThemeIsle)
+[15/Feb/2022:05:53:00] (I): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.7.5 (ThemeIsle)
+[15/Feb/2022:05:53:00] (I): [PLUGIN] Templates Patterns Collection : v1.1.20 (ThemeIsle)
+[15/Feb/2022:05:53:00] (I): [PLUGIN] Orbit Fox Companion : v2.10.10 (Themeisle)
